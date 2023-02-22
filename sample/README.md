@@ -18,3 +18,6 @@ Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit al
 2. git checkout <5digit>
 3. NOTE if you want to commit you have to get back to last commit (you can only see if you want to update you have to create new branch)
 4. git checkout main to get back to the last commit
+### Undoing comitted changes ###
+1. git commit -m "comment"
+2. git revert HEAD This will uncommit the last commit
