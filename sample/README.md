@@ -32,15 +32,3 @@ Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit al
 8. git push
 9. git push origin -d branch1 to delete branch for remote
 10. git branch --d branch1 to delete branch for local
-
-### Creating a branch without conflict ###
-1. git checkout -b branchName1 create a branch and checkout to branchName1
-2. git status
-3. git branch to check where you are in branch
-4. add,then commit
-5. git push origin branch1 to push to branch1
-6. git checkout main
-7. git merge branchName1
-8. git push
-9. git push origin -d branch1 to delete branch for remote
-10. git branch --d branch1 to delete branch for local
