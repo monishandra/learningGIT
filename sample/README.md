@@ -12,3 +12,9 @@ Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit al
 4. git add c.md
 5. git commit -m "Unrelated change to c"
 6. git reset filename.md To reset stagged files use
+
+### To get back to previous commit ###
+1. git log and select first 5 digits for the commit that you want to revert
+2. git checkout <5digit>
+3. NOTE if you want to commit you have to get back to last commit (you can only see if you want to update you have to create new branch)
+4. git checkout main to get back to the last commit
